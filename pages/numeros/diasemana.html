@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/index.html">
+          <img src="/images/Logo.jpg" width="100px" alt="imágen no encontrada">
+        </a>
+          <h2>Proyecto</h2>
+         </div>
+        <nav>
+         <ul class="opciones">
+          <li><a href="/pages/numeros.html">Números</a></li>
+          <li><a href="/pages/cadenas.html">Cadenas</a></li>
+          <li><a href="/pages/arreglos.html">Arreglos</a></li>
+          <li><a href="#">Acerca de</a></li>
+         </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="contenido">
+            <form action="">
+            <h1>Días de la semana</h1>
+            <div class="operaciones">
+            <div class="grupo1">
+                <input type="text" id="num1"
+                placeholder="Ingrese el día de la semana"/>
+            </div>
+            
+        </div>
+        <textarea class="text" id="resp" rows="12"></textarea>
+        <style>
+            .text {
+                content: center;
+                width: 400px;    
+                height: 300px;
+            }
+        </style>
+        <hr>
+        <div class="grupo">
+            <button type="button" onclick="diasemana()"> Iniciar </button>
+            <button type="reset" type="button" onclick="Ac()"> Limpiar </button>
+        </div>
+        
+        <style>
+           
+            .grupo1 {
+                display: flex;
+                justify-content: center; 
+                align-items: center;     
+                margin-bottom: 20px;   
+                
+            }
+        
+            #num1 {
+                
+                width: 400px;
+                max-width: 400px;       
+                padding: 12px;          
+                font-size: 16px;         
+                border: 2px solid #ccc; 
+                border-radius: 8px;     
+                background-color: #fafafa; 
+                transition: border-color 0.3s ease; 
+            }
+        
+        </style>
+        
+    </form>
+        </section>
+    </main>
+<p></p>
+    <footer>
+<h5>Derechos reservadors - Proyecto <span>Corporación s.a.</span></h5>
+    </footer>
+   <script src="/js/numeros.js"></script>
+   
+</body>
+</html>

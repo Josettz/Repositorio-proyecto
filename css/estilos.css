@@ -1,0 +1,172 @@
+/* este mensaje es para comentar */
+
+body {
+
+background: darkcyan;
+color: beige;
+font-family: "Urbanist", sans-serif;
+font-optical-sizing: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: -10px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.opciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.opciones li,.ejercicios li {
+margin: 15px;
+list-style-type: none;
+
+}
+.opciones li a {
+text-decoration: none;
+color: rgb(255, 255, 255);
+color: black;
+font-weight: bold;
+transition: all 0.5s;
+}
+
+.opciones li a:hover{
+background-color: white;
+font-size: 18px;
+border-radius: 3px;
+padding: 2px;
+}
+
+.proyectoo {
+    color: rgb(48, 47, 49);
+    text-align: center;
+}
+
+section p {
+    background-color: coral;
+    text-align: justify;
+    padding: 10px;
+    margin: 20px;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 30px;
+    color: rgb(48, 47, 49);
+    border-radius: 5px;
+}
+
+.ejercicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ejercicios a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: tomato;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    transition: all 0.5s;
+} 
+
+.ejercicios a:hover{
+   padding: 10px;
+   background-color: rgb(252, 82, 52);
+}
+
+h1 {
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    background-color: rgb(252, 82, 52);
+}
+
+.contenido {
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.operaciones {
+    text-align: center;
+display:flex;
+align-items: center;
+flex-direction:row;
+gap:5px;
+
+}
+
+.grupo input {
+
+    text-align: center;
+    display:block;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px;
+   
+}
+
+.text {
+
+    width: 100%;
+    border-radius: 20px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+    text-align: center;
+
+}
+
+.grupo {
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 30px;
+    margin-bottom: 30px;
+
+    button {
+        
+        cursor: pointer;
+        border: none;
+        padding: 16px px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        border-radius: 12px;
+    }
+
+}
+
+.grupo label, button{
+    
+    width: 100%;
+    font-size:20px;
+    font-weight: bold;
+    
+}
+

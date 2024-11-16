@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/index.html">
+          <img src="/images/Logo.jpg" width="100px" alt="imágen no encontrada">
+        </a>
+          <h2>Proyecto</h2>
+         </div>
+        <nav>
+         <ul class="opciones">
+          <li><a href="/pages/numeros.html">Números</a></li>
+          <li><a href="/pages/cadenas.html">Cadenas</a></li>
+          <li><a href="/pages/arreglos.html">Arreglos</a></li>
+          <li><a href="#">Acerca de</a></li>
+         </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="contenido">
+            <form action="">
+            <h1>Calculadora</h1>
+            <textarea class="text" id="resp" rows="2"></textarea>
+            <div class="operaciones">
+            <div class="grupo">
+                <input type="number" id ="num1"
+                placeholder="número 1"/>
+            </div>
+            <div class="grupo">
+                <input type="number" id ="num2"
+                placeholder="número 2"/>
+            
+            </div>
+        </div>
+        <div class="grupo">
+            <button type="button" onclick="suma()"> + </button>
+            <button type="button" onclick="resta()"> - </button>
+            <button type="button" onclick="multiplicación()"> * </button>
+            <button type="button" onclick="división()"> / </button>
+            <button type="button" onclick="mod()"> mod </button>
+            <button type="button" onclick="div()"> div </button>
+            <button type="reset" type="button" onclick="Ac()"> Ac </button>
+        </div>
+    </form>
+        </section>
+    </main>
+<p></p>
+    <footer>
+<h5>Derechos reservadors - Proyecto <span>Corporación s.a.</span></h5>
+    </footer>
+   <script src="/js/numeros.js"></script>
+   
+</body>
+</html>
